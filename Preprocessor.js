@@ -85,7 +85,7 @@
      * Definition expression
      * @type {!RegExp}
      */
-    Preprocessor.EXPR = /([ ]*)\/\/[ ]+#(include_once|include|ifn?def|if|endif|else|elif|put|define)/g;
+    Preprocessor.EXPR = /([ ]*)##(include_once|include|ifn?def|if|endif|else|elif|put|define)/g;
 
     /**
      * #include "path/to/file". Requires node.js' "fs" module.
